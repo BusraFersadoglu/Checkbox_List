@@ -1,0 +1,37 @@
+html{
+    background-color: whitesmoke;
+}
+h3{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 2rem;
+    padding-top: 2.5rem;
+    font-weight: 300;
+}
+.content{
+    margin: 4rem auto;
+    background-image: url(img.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 5px 0px rgba(181,175,181,1);
+    width: 30%;
+}
+.item{
+    display: flex;
+    align-items: center;
+    border: .5px solid rgba(211, 211, 211, 0.541);
+}
+input{
+    margin: 1rem;
+    cursor: pointer;
+}
+p{
+    padding: 1rem;
+    font-size: 1.4rem;
+    border-left: 1px solid rgba(211, 211, 211, 0.541);
+    font-weight: 300;
+    width: 100%;
+}
+input:checked + p {
+    text-decoration: line-through;
+}
